@@ -1,0 +1,64 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.sidebarnav {
+  min-width: 260px;
+  height: 100vh;
+  top: 50px;
+  left: 0;
+  flex: 0.3;
+  overflow-y: scroll;
+  background-color: var(--slack-color);
+  border-top: 1px solid #49274b;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.sidebarnav::-webkit-scrollbar {
+  width: 0;
+}
+
+.sidebarnav hr {
+  margin: 10px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #49274b;
+}
+
+.sidebar__header {
+  display: flex;
+  border-bottom: 1px solid #49274b;
+  align-items: center;
+  padding: 13px;
+}
+.sidebar__header > .MuiSvgIcon-root {
+  padding: 8px;
+  font-size: 2.5rem;
+  color: #49274b;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.sidebar__user-info {
+  margin-right: 15px;
+  float: left;
+}
+.sidebar__user-info > h2 {
+  font-weight: 700;
+}
+
+.sidebar__user-info > h3 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.sidebar__user-info > h3 > .MuiSvgIcon-root {
+  color: lime;
+  margin-right: 2px;
+  padding: 4px;
+}
